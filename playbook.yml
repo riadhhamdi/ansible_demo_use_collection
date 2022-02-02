@@ -1,0 +1,9 @@
+- name: Sample playbook calling a collection 
+  hosts: all 
+  collections:
+    - bdf.smoketest
+  tasks: 
+  - name: getting role from collaction 
+    import_role: 
+      name: bdf.smoketest.test-role
+  
