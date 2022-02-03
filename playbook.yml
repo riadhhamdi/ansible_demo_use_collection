@@ -3,7 +3,7 @@
   collections:
     - bdf.smoketest
   tasks: 
-  - name: getting role from collaction 
-    import_role: 
-      name: bdf.smoketest.test-role
+    - name: getting role from collaction 
+      import_role: 
+        name: bdf.smoketest.test-role
   
