@@ -13,6 +13,6 @@
       debug:
         var: item
       loop:
-        - awx_user_name
-        - tower_user_name
-        - tower_user_id
+        - "{{awx_user_name}}"
+        - "{{tower_user_name}}"
+        - "{{tower_user_id}}"
