@@ -4,7 +4,7 @@ collections:
     type: git 
     source: git@github.com:riadhhamdi/ansible_demo_collection.git
 roles:
-  - src: git@github.com:riadhhamdi/ansible_demo_role.git
-    scm: git
+  - source: git@github.com:riadhhamdi/ansible_demo_role.git
+    type: git
     version: "main"
 
