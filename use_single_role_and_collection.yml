@@ -3,15 +3,15 @@
   hosts: all
   roles:
     - samplerole
-  # collections:
-    #- bdf.smoketest
+   collections:
+    - bdf.smoketest
   tasks:
     - name: Say Hello
       debug:
         msg: "Hello"
     - name: Import role from collection
       import_role:
-        name: bdf.smoketest.test-role
+        name: test-role
     - name: Import Single role **not in collection**
       import_role:
         name: samplerole
