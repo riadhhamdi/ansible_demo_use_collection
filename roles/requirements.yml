@@ -1,5 +1,4 @@
-roles:
-  - name: samplerole
-    version: master
-    type: git 
-    source: git@github.com:riadhhamdi/ansible_demo_role.git
+- name: samplerole
+  version: master
+  type: git 
+  source: git@github.com:riadhhamdi/ansible_demo_role.git
