@@ -3,7 +3,7 @@
   hosts: all
   roles:
     - samplerole
-   collections:
+  collections:
     - bdf.smoketest
   tasks:
     - name: Say Hello
