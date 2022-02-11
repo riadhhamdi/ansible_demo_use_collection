@@ -12,7 +12,7 @@
     - name: Import role from collection
       import_role:
         name: test-role
-   # - name: Import Single role **not in collection**
-   #   import_role:
-   #     name: samplerole
+    - name: Import Single role **not in collection**
+      import_role:
+        name: samplerole
        
