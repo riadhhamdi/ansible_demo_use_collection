@@ -14,5 +14,5 @@
         name: test-role
     - name: Import Single role **not in collection**
       import_role:
-        name: samplerole
+        name: ansible_demo_role
        
