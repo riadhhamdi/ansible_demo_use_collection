@@ -2,7 +2,7 @@
 - name: Sample playbook calling a collection
   hosts: all
   roles:
-    - samplerole
+    - ansible_demo_role
   collections:
     - bdf.smoketest
   tasks:
