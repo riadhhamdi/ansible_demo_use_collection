@@ -1,3 +1,1 @@
-- name: samplerole
-  version: master
-  src: git@github.com:riadhhamdi/ansible_demo_role.git
+- src: git@github.com:riadhhamdi/ansible_demo_role.git
