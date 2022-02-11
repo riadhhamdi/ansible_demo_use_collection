@@ -4,7 +4,7 @@
   roles:
     - samplerole
   # collections:
-    -# bdf.smoketest
+    #- bdf.smoketest
   tasks:
     - name: Say Hello
       debug:
