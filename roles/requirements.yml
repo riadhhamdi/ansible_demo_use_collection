@@ -1,4 +1,4 @@
-- src: git@github.com:riadhhamdi/ansible_demo_role.git
-  scm: git
-  version: "main"
+#- src: git@github.com:riadhhamdi/ansible_demo_role.git
+#  scm: git
+#  version: "main"
 
