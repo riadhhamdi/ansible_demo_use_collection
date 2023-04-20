@@ -2,4 +2,4 @@ collections:
   - name: bdf.smoketest
     version: master
     type: git 
-    source: https://github.com/riadhhamdi/ansible_demo_collection.git
+    source: git+https://github.com/riadhhamdi/ansible_demo_collection.git
